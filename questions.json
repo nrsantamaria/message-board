@@ -1,0 +1,14 @@
+{ "questions": [{
+    "content": "Does Glimmer mean the death of Ember?",
+    "author": "estudent200",
+    "note": "I was hoping emberconf would see the dust settle on some big-ticket Ember items - Fastboot, Engines, Modules, tree shaking, svelte builds, etc - and was kind of disappointed that we just got more dust. Any ideas?"
+  }, {
+    "content": "Glimmer.js: What’s the Deal with TypeScript?",
+    "author": "tdale",
+    "note": "Two weeks ago at EmberConf, we announced Glimmer.js, a component-based library for writing superfast web applications. In the demo video, we use TypeScript to write our Glimmer components. Some people have been asking, what’s the deal? Have we turned our backs on JavaScript and embraced our new TypeScript overlords?"
+  }, {
+    "content": "How to create an Ember / firebase vote button?",
+    "author": "newbieq",
+    "note": "I am trying to learn ember but I am pretty new to programming too. I am trying to build a voting app that will let people submit movies to screen in my backyard and let people vote on which movie we should watch. I managed to link firebase db to my site. I can add a post and all the posts will list out on my index page. I have added a vote button and when you click on it a console.log is triggered that says up vote! but I can't figure out how I grab the unique id of the entry then add 1 to the vote property of that entry. wonder if anyone here might give me a hint."
+  }]
+}
