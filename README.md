@@ -1,6 +1,6 @@
 # Message Board
 
-This app can be used as a message board for people interested a career in development and looking to connect with developers.
+This app can be used as a message board for people interested in a career in development and looking to connect with fellow developers.
 
 ### By Nicole Santamaria
 
@@ -15,9 +15,10 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone https://github.com/nrsantamaria/message-board` this repository
+* `git clone https://github.com/nrsantamaria/message-board`
 * `cd message-board`
 * `npm install`
+* `bower install`
 
 ## Running / Development
 
@@ -59,3 +60,6 @@ This software is licensed under MIT license.
 Copyright (c) 2017 Nicole Santamaria
 
 ![message-board-map](public/img/message-board-map.png)
+![home-page](public/img/home-page.png)
+![about-page](public/img/about-page.png)
+![question-page](public/img/question-page.png)

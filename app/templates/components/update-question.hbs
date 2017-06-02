@@ -3,15 +3,15 @@
     <form class="question-form">
       <div class="form-group">
        <label for="content">question:</label>
-       {{input value=content id="content" placeholder=question.content}}
+       {{input value=content id="content" placeholder=question.content class="form-control"}}
      </div>
      <div class="form-group">
        <label for="author">submitted by:</label>
-       {{input value=author id="author" placeholder=question.author}}
+       {{input value=author id="author" placeholder=question.author class="form-control"}}
      </div>
      <div class="form-group">
        <label for="note">details:</label>
-       {{textarea input value=note id="note" placeholder=question.note}}
+       {{textarea input value=note id="note" placeholder=question.note class="form-control"}}
      </div>
      <strong><a href="newPage.htm" {{action 'update' question}}>save</a></strong>
     </form>
