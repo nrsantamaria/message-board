@@ -1,0 +1,7 @@
+<h3>{{question.content}}</h3>
+<p>submitted by <span class="author">{{question.author}}</span></p>
+<p>{{question.note}}</p>
+{{update-question question=question update="update"}}
+<strong><a href="newPage.htm" {{action 'delete' question}}>delete question</a></strong>
+<hr>
+<br>
