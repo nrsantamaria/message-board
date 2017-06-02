@@ -18,12 +18,17 @@ nav {
 nav a {
   color: white;
   text-decoration: none;
-  margin-left: 100px;
+  margin-left: 13%;
 }
 
 .question {
   background-color: #F4F5F5;
   padding: 10px;
+
+}
+
+.question a {
+  margin-left: 10%;
 }
 
 body {
