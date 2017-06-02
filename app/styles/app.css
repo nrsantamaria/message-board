@@ -1,0 +1,12 @@
+#epicodus {
+  float: left;
+}
+
+footer img {
+  display:block;
+  height: 75px;
+  margin: -20px -50px;
+  position:relative;
+  top:50%;
+  left:50%;
+}

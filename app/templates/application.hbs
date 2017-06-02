@@ -1,5 +1,15 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
-
+<div class="container">
+  <img id="epicodus" src="img/epicodus-ico.png" alt="epicodus logo">
+  <h1>Welcome to e/programmer</h1>
+  <nav>
+    {{#link-to 'index'}}Home{{/link-to}}
+    {{#link-to 'about'}}About{{/link-to}}
+  </nav>
+</div>
 {{outlet}}
+<br>
+<hr>
+<br>
+<footer>
+  <a href="https://github.com/nrsantamaria"><img src="img/github.png" alt="github logo"></a>
+</footer>
