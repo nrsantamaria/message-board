@@ -1,7 +1,8 @@
-# message-board
+# Message Board
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This app can be used as a message board for people interested a career in development and looking to connect with developers.
+
+### By Nicole Santamaria
 
 ## Prerequisites
 
@@ -14,7 +15,7 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
+* `git clone https://github.com/nrsantamaria/message-board` this repository
 * `cd message-board`
 * `npm install`
 
@@ -48,3 +49,13 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+
+## Support and Contact Details
+Please contact Nicole Santamaria at NicoleRSantamaria@gmail.com if you have any questions.
+
+## License
+This software is licensed under MIT license.
+
+Copyright (c) 2017 Nicole Santamaria
+
+![message-board-map](/img/message-board-map.png)
