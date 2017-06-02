@@ -3,11 +3,11 @@
     <form class="answer-form">
       <div class="form-group">
         <label for="author">author:</label>
-        {{input value=author id="author"}}
+        {{input value=author id="author" class="form-control"}}
       </div>
       <div class="form-group">
         <label for="response">response:</label>
-        {{textarea input value=response id="response"}}
+        {{textarea input value=response id="response" class="form-control"}}
       </div>
       <strong><a href="newPage.htm" {{action 'saveAnswer'}}>save</a></strong>
     </form>

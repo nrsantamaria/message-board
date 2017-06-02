@@ -7,5 +7,8 @@ export default Ember.Component.extend({
         this.sendAction('destroyAnswer', answer);
       }
     }
+    upvote(id) {
+      console.log("upvote!");
+    }
   }
 });
