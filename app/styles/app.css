@@ -2,6 +2,11 @@
   float: left;
 }
 
+strong a {
+  text-decoration: none;
+  color: rgb(136, 136, 136);
+}
+
 #github {
   display: inline-block;
   margin: -50px;

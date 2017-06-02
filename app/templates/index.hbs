@@ -1,5 +1,6 @@
 <div class="row">
   {{#each model as |question|}}
-    {{question-tile question=question}}
+    {{question-tile question=question update="update" destroyQuestion="destroyQuestion"}}
   {{/each}}
+  {{new-question saveQuestion2="saveQuestion3"}}
 </div>

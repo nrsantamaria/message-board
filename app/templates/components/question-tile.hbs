@@ -1,2 +1,4 @@
 <h3>{{question.content}}</h3>
 <p>submitted by {{question.author}}</p>
+{{update-question question=question update="update"}}
+<strong><a href="newPage.htm" {{action 'delete' question}}>delete question</a></strong>
