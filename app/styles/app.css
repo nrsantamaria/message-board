@@ -44,6 +44,10 @@ a {
   color: #5DAFB0;
 }
 
+.answers {
+  padding-left: 35px;
+}
+
 #github {
   display: inline-block;
   margin: -50px;

@@ -1,8 +1,8 @@
-<div class="row question">  
+<div class="row question">
   {{new-question saveQuestion2="saveQuestion3"}}
 </div>
 <div class="row">
-  {{#each model as |question|}}
-    {{question-tile question=question}}
+  {{#each model.questions as |question|}}
+    {{question-tile question=question update="update" destroyQuestion="destroyQuestion"}}
   {{/each}}
 </div>

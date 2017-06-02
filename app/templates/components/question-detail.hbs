@@ -4,4 +4,9 @@
 {{update-question question=question update="update"}}
 <strong><a href="newPage.htm" {{action 'delete' question}}>delete question</a></strong>
 <hr>
-<br>
+<h3>comments:</h3>
+<div class="answers">
+  {{#each question.answers as |answer|}}
+    {{answer-tile answer=answer destroyAnswer="destroyAnswer"}}
+  {{/each}}
+</div>
